@@ -301,6 +301,13 @@
                         "event": "custpets:add_olive",
                         "target": "self"
                     }
+                },
+                {
+                    "name_filter": "soloname",
+                    "on_named": {
+                        "event": "custpets:add_olive",
+                        "target": "self"
+                    }
                 }
             ]
         },
