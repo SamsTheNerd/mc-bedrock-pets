@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "Adds friend pets textures to game",
+      "name": "Friend Pet Resource Pack",
+      "uuid":"ebed7690-8f59-4897-a91e-33c9e4d4c550",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 16, 0]
+     },
+    "modules": [
+      {
+        "description": "pet add-on",
+        "type": "resources",
+        "uuid": "d4dcfdb2-fc53-4759-bf61-70e4e7d1e3bf",
+        "version": [1, 0, 0]
+      }
+    ]
+   }

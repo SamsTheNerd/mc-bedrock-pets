@@ -1,0 +1,25 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "Adding Pets !",
+      "name": "Pet Time Behavior Pack",
+      "uuid":"cee91f5f-e4b4-4de2-aa94-c45827619288",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 16, 0]
+    },
+    "modules":
+      [
+        {
+          "description": "resource add-on",
+            "type": "data",
+            "uuid": "d5bc4541-47cc-4145-9b98-e0a5a7427ec6",
+            "version": [1, 0, 0]
+        }
+      ],
+    "dependencies": [
+      {
+       "uuid":"ebed7690-8f59-4897-a91e-33c9e4d4c550",
+        "version":[1,0,0]
+      }
+   ]
+  }
