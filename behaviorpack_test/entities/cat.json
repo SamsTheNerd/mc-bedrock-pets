@@ -298,15 +298,7 @@
                 {
                     "name_filter": ["olive", "Olive", "OLIVE", "Olib", "olib", "poopstain"],
                     "on_named": {
-                        "event": "custpets:add_olive",
-                        "target": "self"
-                    }
-                },
-                {
-                    "name_filter": "soloname",
-                    "on_named": {
-                        "event": "custpets:add_olive",
-                        "target": "self"
+                        "event": "custpets:add_olive"
                     }
                 }
             ]
@@ -753,7 +745,7 @@
                     "minecraft:cat_tabby",
                     "minecraft:cat_black",
                     "minecraft:cat_jellie",
-                    "custpets:olive"
+                    "custpets:cat_olive"
                 ]
             }
         },
@@ -761,14 +753,13 @@
             "sequence": [
                 {
                     "trigger": {
-                        "event": "custpets:remove_breed",
-                        "target": "self"
+                        "event": "custpets:remove_breed"
                     }
                 },
                 {
                     "add": {
                         "component_groups": [
-                            "custpets:olive"
+                            "custpets:cat_olive"
                         ]
                     }
                 }
