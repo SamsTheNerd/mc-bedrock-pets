@@ -300,6 +300,12 @@
                     "on_named": {
                         "event": "custpets:add_olive"
                     }
+                },
+                {
+                    "name_filter": "onlytest",
+                    "on_named": {
+                        "event": "custpets:add_olive_only"
+                    }
                 }
             ]
         },
