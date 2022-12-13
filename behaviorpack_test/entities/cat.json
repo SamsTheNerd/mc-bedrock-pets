@@ -764,6 +764,17 @@
                     }
                 }
             ]
+        },
+        "custpets:add_olive_only":{
+            "sequence": [
+                {
+                    "add": {
+                        "component_groups": [
+                            "custpets:cat_olive"
+                        ]
+                    }
+                }
+            ]
         }
       }
     }
